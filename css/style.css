@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'comfortaa';
+    src: url('/fonts/Comfortaa-Light.ttf');
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: 'comfortaa';
+    src: url('/fonts/Comfortaa-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'comfortaa';
+    src: url('/fonts/Comfortaa-Bold.ttf');
+    font-style: normal;
+    font-weight: bold;
+  }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ebc7a3;
+    font-family: 'comfortaa', Helvetica, sans-serif;
+    overflow: scroll;
+}
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
+    display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+header{
+    text-align: center;
+    width: 100vw;
+    min-height: 45vh;
+    height: auto;
+    background-color: #231F20;
+    color: aliceblue;
+    border-radius: 0 0 25px 25px;
+}
+ul{
+    list-style: none;
+}
+#title-wrapper{
+    margin: auto;
+    font-size: 1rem;
+    margin-bottom: 5vh;
+}
+#logo{
+    margin: auto;
+}
+
+#search-block{
+    margin-top: -5vh;
+    background-color: white;
+    border-radius: 15px;
+}
+#selected{
+    flex: 0.3 1 auto;
+}
+#wrapper-cards{
+    margin: auto;
+    padding: 3vh;
+    margin-top: 3vh;
+    border-radius: 15px;
+    background-color: white;
+}
+#card{
+    margin: auto;
+    max-width: 95%;
+
+}
